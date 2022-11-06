@@ -1,0 +1,13 @@
+.text-div {
+    font-size: 8px;
+    position: relative;
+    top: -15px;
+}
+
+
+
+#hero-div {
+    background-color: rgba(73, 30, 18, 0.464);
+    position: fixed;
+    color: white;
+}

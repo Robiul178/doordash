@@ -1,0 +1,42 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.text-side {
+    margin-top: 10rem;
+    padding: 50px;
+}
+
+.delivery-section {
+
+    padding: 50px;
+}
+
+/* Hero Section */
+#hero-section {
+    background-image: url('../image/banner/b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+    height: 100vh;
+}
+
+#menu-down {
+    background-image: url('../image/banner/banner-pizza.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    height: 500px;
+}
+
+
+/* Hero Section */
+
+@media screen and (max-width:768px) {
+    .main-container {
+        background-color: red;
+        display: grid;
+        grid-template-columns: 2fr;
+    }
+}
